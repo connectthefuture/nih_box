@@ -21,11 +21,11 @@ project. This includes the following stacks:
   will only take a few seconds to make it boot up.
 * At this point, the virtual machine (VM) is running and an IPython notebook server
   is running. You can access it on the host by pointing your browser to
-  http://localhost:8888
+  [http://localhost:8888](http://localhost:8888)
 * When you run `vagrant up`, it will also check if your folder has a subfolder
   called `notebooks` and, if not, it will create it. That is where the
   IPython notebook server will start running.
-* When you are done with your analysis, `Ctr+D` twice will stop the notebook
+* When you are done with your analysis, `Ctr+C` twice will stop the notebook
   server. Then run `vagrant halt` to stop the VM.
 * If you want to get rid of the VM, run `vagrant destroy` and things will
   dissapear as if they'd never happened. That easy.
