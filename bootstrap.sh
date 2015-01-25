@@ -25,6 +25,8 @@ conda create --name pystack --file /vagrant/pystack.txt
 source activate pystack
 
 pip install rpy2
+pip install pysal
+
 sudo apt-get install -y git
 pip install --process-dependency-links git+https://github.com/pymc-devs/pymc
 
