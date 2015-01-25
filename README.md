@@ -30,6 +30,11 @@ project. This includes the following stacks:
 * If you want to get rid of the VM, run `vagrant destroy` and things will
   dissapear as if they'd never happened. That easy.
 
-## License
+## License and creadits
 
-This is released under a BSD-type open-source license.
+This is released under a BSD-type open-source license. 
+
+This project was influenced and inspired by the
+[`pysalREST`](https://github.com/pysal/pysalREST/tree/master/Vagrant) Vagrant
+setup and by Lincoln Mullen's
+[`vagrant-r-dev`](https://github.com/lmullen/vagrant-r-dev).
