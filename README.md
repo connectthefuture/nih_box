@@ -29,3 +29,7 @@ project. This includes the following stacks:
   server. Then run `vagrant halt` to stop the VM.
 * If you want to get rid of the VM, run `vagrant destroy` and things will
   dissapear as if they'd never happened. That easy.
+
+## License
+
+This is released under a BSD-type open-source license.
